@@ -1,0 +1,207 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  background-image: url(/img/desktop-wallpaper-web-developer-front-end-developer.jpg);
+  background-size: cover;
+}
+
+header {
+  color: rgb(137, 12, 137);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(75, 145, 161);
+  text-align: center;
+  flex-wrap: wrap;
+}
+header nav {
+  text-align: right;
+  text-shadow: none;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+header nav a {
+  padding-right: 10px;
+  margin: 45px;
+  color: rgb(228, 158, 18);
+  font-size: x-large;
+  flex-wrap: wrap;
+}
+
+:hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+
+/* Estilos generales */
+@media (max-width: 768px) {
+  /* Estilos para pantallas más pequeñas */
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Estilos para pantallas medianas */
+}
+@media (min-width: 1025px) {
+  /* Estilos para pantallas grandes */
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(250, 249, 248);
+  flex-wrap: wrap;
+}
+
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+}
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #ab4493;
+  border-color: #ab4493;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+button p {
+  color: #fff;
+}
+
+span {
+  color: #ab4493;
+}
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: #ab4493;
+}
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+}
+
+p {
+  font-size: 14px;
+  color: #0e0e0e;
+}
+
+::-webkit-input-placeholder,
+::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+body {
+  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ucatalunya.edu.co%2Fblog%2Flos-mejores-lenguajes-de-programacion-en-el-desarrollo-web-y-su-importancia-en-la-era-digital&psig=AOvVaw3s6-bodO9dx3Gm56-5SqtP&ust=1702162853899000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCMiD2_T4gIMDFQAAAAAdAAAAABAD);
+}
+
+h1 {
+  background-color: rgb(255, 0, 0);
+}
+
+main > .tarjetas {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #f8f4f4;
+  border-radius: 3px;
+  margin-top: 200px;
+  transition: box shadow 0, 3s ease-in-out;
+}
+main > .tarjetas:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+main > .tarjetas > img {
+  width: 100%;
+  height: fit-content;
+}
+
+.img-propia {
+  width: 100%;
+  height: 400px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+body {
+  background-size: cover;
+  background-image: url(https://media.istockphoto.com/id/1197640540/es/foto/dise%C3%B1o-del-sitio-web-desarrollo-de-tecnolog%C3%ADas-de-programaci%C3%B3n-y-codificaci%C3%B3n.jpg?s=2048x2048&w=is&k=20&c=KrqgC27MPllB8WSFwvFF_FOIFVpeCFSTf_qvt58hacY=);
+}
+
+h1 animate a {
+  animation: alternate-reverse;
+}
+
+linearGradient {
+  background-image: -moz-radial-gradient(fit-content);
+}
+
+/*# sourceMappingURL=style.css.map */

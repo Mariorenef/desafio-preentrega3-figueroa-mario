@@ -1,0 +1,52 @@
+@import "variables";
+@import "reset";
+@import "fuentes";
+@import "header";
+@import "responsive";
+@import "footer";
+@import "contacto";
+@import "mas";
+@import "portfolio";
+@import"home";
+
+
+
+main>.tarjetas {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #f8f4f4;
+    border-radius: 3px;
+    margin-top: 200px;
+    transition: box shadow 0, 3s ease-in-out;
+
+    &:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    >img {
+        width: 100%;
+        height: fit-content;
+    }
+}
+
+.img-propia {
+    width: 100%;
+    height: 400px;
+}
+//*damos estilos al main//
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+body {
+    background-size: cover;
+    background-image: url(https://media.istockphoto.com/id/1197640540/es/foto/dise%C3%B1o-del-sitio-web-desarrollo-de-tecnolog%C3%ADas-de-programaci%C3%B3n-y-codificaci%C3%B3n.jpg?s=2048x2048&w=is&k=20&c=KrqgC27MPllB8WSFwvFF_FOIFVpeCFSTf_qvt58hacY=);
+}
+h1 animate a{
+    animation: alternate-reverse;
+}
+linearGradient{
+    background-image: -moz-radial-gradient(fit-content);
+}

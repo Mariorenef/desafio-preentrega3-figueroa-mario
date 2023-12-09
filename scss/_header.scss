@@ -1,0 +1,36 @@
+header {
+    color: rgb(137, 12, 137);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(75, 145, 161);
+    text-align: center;
+    flex-wrap: wrap;
+
+
+    nav {
+        text-align: right;
+        text-shadow: none;
+        padding: 10px;
+        flex-wrap: wrap;
+
+
+        a {
+            padding-right: 10px;
+            margin: 45px;
+            color: rgb(228, 158, 18);
+            font-size: x-large;
+            flex-wrap: wrap;
+
+
+
+
+
+        }
+    }
+}
+
+:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
